@@ -2,6 +2,8 @@
 
 > Automated daily technical intelligence in Distributed Systems, Databases, Storage Engines, and Infrastructure.
 
-**Total Editions:** 0
+**Total Editions:** 1
 
-*No archived daily reports yet. The first edition will be generated on the next scheduled run or manual trigger.*
+| Date | Digest Link | Total Articles | Key Topics |
+| :--- | :--- | :---: | :--- |
+| 2026-09-24 | [Browse Day's Articles](report/2026-09-24/README.md) | 37 | `databases`, `distributed-systems`, `redis`, `research` |

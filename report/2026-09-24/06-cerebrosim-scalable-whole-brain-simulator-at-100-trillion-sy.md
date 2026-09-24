@@ -1,0 +1,12 @@
+# CerebroSim: Scalable Whole-Brain Simulator at 100-Trillion-Synapse Scale on the LineShine Supercomputer
+
+- **URL:** https://arxiv.org/abs/2609.27482
+- **Author:** Guangnan Feng, Tianxiang Lyu, Hao Huang, Honghui Liang, Jingjing Li, Zhiguang Chen, Yutong Lu
+- **Published Date:** 2026-09-24 04:00 UTC
+- **Tags:** `distributed-systems`, `research`
+- **Source:** arXiv cs.DC (Distributed Computing)
+
+---
+
+## Summary
+arXiv:2609.27482v1 Announce Type: new Abstract: Building executable brain models is essential for moving neuroscience from description to mechanism and prediction. Human-brain-scale spiking simulation is constrained by highly irregular communication, multithreaded spike delivery, and the memory cost of sparse connectivity. We present CerebroSim, a scalable framework for whole-brain simulation. CerebroSim combines Delay-aware Spike Broadcast (DSB) for aggregated delay-aware communication, Race-free Synaptic Dynamics Computation (RSDC) for lock/atomic-free multithreaded delivery with HBM-aware optimization, and Sparse Synapse Storage Compression (3SC) for compact indexing with deterministic synapse regeneration. Using a model derived from magnetic resonance imaging and diffusion-weighted imaging, CerebroSim simulates 86 billion neurons and 100 trillion synapses on 18,432 nodes across 11.2 million cores of the LineShine Supercomputer, sustaining 24.44 PFlop/s, 91% weak-scaling efficiency, and 94% strong-scaling efficiency. This capability makes biologically constrained human-brain models practical for mechanistic studies of brain disorders and controlled in silico testing of intervention hypotheses.
