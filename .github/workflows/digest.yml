@@ -4,7 +4,7 @@ on:
   schedule:
     # Test trigger for IST timezone:
     # 07:40, 07:45, 07:50 UTC = 13:10, 13:15, 13:20 IST
-    - cron: '40,45,50 7 * * *'
+    - cron: '00 2 * * *'
   workflow_dispatch:     # Allows manual trigger via GitHub Actions UI
 
 permissions:
