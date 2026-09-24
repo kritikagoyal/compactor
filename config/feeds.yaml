@@ -1,0 +1,238 @@
+# ==========================================================
+# Compactor Configuration: Distributed Systems & Databases
+# ==========================================================
+
+settings:
+  lookback_hours: 36        # Time window to consider an article "fresh"
+  max_articles_per_feed: 10 # Cap per feed to prevent flooding
+
+# ----------------------------------------------------------
+# Taxonomy: Defines keyword mappings to assign tags to articles
+# ----------------------------------------------------------
+taxonomy:
+  distributed-systems:
+    keywords:
+      - "distributed systems"
+      - "distributed system"
+      - "consensus"
+      - "raft"
+      - "paxos"
+      - "split-brain"
+      - "two-phase commit"
+      - "2pc"
+      - "quorum"
+      - "vector clock"
+      - "byzantine"
+      - "cap theorem"
+      - "sharding"
+      - "replication"
+      - "consistency model"
+      - "linearizability"
+      - "serializability"
+
+  databases:
+    keywords:
+      - "database"
+      - "databases"
+      - "storage engine"
+      - "lsm"
+      - "sstable"
+      - "b-tree"
+      - "acid"
+      - "wal"
+      - "write-ahead log"
+      - "compaction"
+      - "query optimization"
+      - "query planner"
+      - "olap"
+      - "oltp"
+      - "htap"
+      - "columnar"
+      - "btree"
+
+  redis:
+    keywords:
+      - "redis"
+      - "valkey"
+      - "in-memory database"
+      - "redis cluster"
+      - "resp protocol"
+
+  cassandra:
+    keywords:
+      - "cassandra"
+      - "scylladb"
+      - "wide-column"
+      - "cql"
+      - "gossip protocol"
+      - "consistent hashing"
+
+  sql:
+    keywords:
+      - "sql"
+      - "postgresql"
+      - "postgres"
+      - "mysql"
+      - "sqlite"
+      - "cockroachdb"
+      - "tidb"
+      - "yugabyte"
+      - "spanner"
+      - "distributed sql"
+
+  kafka:
+    keywords:
+      - "kafka"
+      - "confluent"
+      - "event streaming"
+      - "redpanda"
+      - "pulsar"
+      - "consumer group"
+      - "partitioning"
+
+  docker:
+    keywords:
+      - "docker"
+      - "container"
+      - "containerd"
+      - "dockerfile"
+      - "oci"
+      - "runc"
+      - "cgroups"
+
+  kubernetes:
+    keywords:
+      - "kubernetes"
+      - "k8s"
+      - "helm"
+      - "kubelet"
+      - "control plane"
+      - "ingress"
+      - "crd"
+      - "etcd"
+
+  kv-store:
+    keywords:
+      - "kv store"
+      - "key-value"
+      - "rocksdb"
+      - "pebble"
+      - "badgerdb"
+      - "leveldb"
+      - "tikv"
+      - "boltdb"
+
+  zookeeper:
+    keywords:
+      - "zookeeper"
+      - "zk"
+      - "chubby"
+      - "coordination service"
+      - "zab protocol"
+
+  research:
+    keywords:
+      - "arxiv"
+      - "research paper"
+      - "pre-print"
+      - "cs.dc"
+      - "cs.db"
+      - "sigmod"
+      - "vldb"
+      - "osdi"
+      - "sosp"
+      - "fast"
+      - "usenix"
+
+# ----------------------------------------------------------
+# Sources: High-signal feeds across databases & systems
+# ----------------------------------------------------------
+sources:
+  # --- Tier 1: Dedicated Distributed Databases & Storage Engines ---
+  - name: "CockroachDB Engineering"
+    url: "https://www.cockroachlabs.com/blog/index.xml"
+    type: "rss"
+    default_tags: ["databases", "sql", "distributed-systems"]
+
+  - name: "ClickHouse Technology"
+    url: "https://clickhouse.com/blog/rss.xml"
+    type: "rss"
+    default_tags: ["databases", "sql", "olap"]
+
+  - name: "ScyllaDB Blog"
+    url: "https://www.scylladb.com/feed/"
+    type: "rss"
+    default_tags: ["databases", "cassandra", "kv-store", "distributed-systems"]
+
+  - name: "PingCAP (TiDB) Engineering"
+    url: "https://www.pingcap.com/blog/feed/"
+    type: "rss"
+    default_tags: ["databases", "sql", "distributed-systems", "kv-store"]
+
+  - name: "RisingWave (Streaming DB)"
+    url: "https://risingwave.com/blog/rss.xml"
+    type: "rss"
+    default_tags: ["databases", "streaming", "sql"]
+
+  - name: "Redpanda Blog"
+    url: "https://redpanda.com/blog/rss.xml"
+    type: "rss"
+    default_tags: ["kafka", "distributed-systems", "consensus"]
+
+  # --- Tier 2: Core Infrastructure, Cloud & Container Systems ---
+  - name: "Kubernetes Blog"
+    url: "https://kubernetes.io/feed.xml"
+    type: "rss"
+    default_tags: ["kubernetes", "docker", "distributed-systems"]
+
+  - name: "Docker Blog"
+    url: "https://www.docker.com/feed/"
+    type: "rss"
+    default_tags: ["docker", "container"]
+
+  - name: "Cloudflare Technical Blog"
+    url: "https://blog.cloudflare.com/rss/"
+    type: "rss"
+    default_tags: ["distributed-systems", "infrastructure"]
+
+  - name: "Uber Engineering"
+    url: "https://www.uber.com/en-US/blog/engineering/rss/"
+    type: "rss"
+    default_tags: ["distributed-systems", "databases"]
+
+  - name: "Netflix TechBlog"
+    url: "https://netflixtechblog.com/feed"
+    type: "rss"
+    default_tags: ["distributed-systems", "architecture"]
+
+  - name: "AWS Database Blog"
+    url: "https://aws.amazon.com/blogs/database/feed/"
+    type: "rss"
+    default_tags: ["databases", "sql", "kv-store"]
+
+  # --- Tier 3: Curated DB & DistSys Communities ---
+  - name: "Lobste.rs (Distributed Systems)"
+    url: "https://lobste.rs/t/distributed.rss"
+    type: "rss"
+    default_tags: ["distributed-systems"]
+
+  - name: "Lobste.rs (Databases)"
+    url: "https://lobste.rs/t/databases.rss"
+    type: "rss"
+    default_tags: ["databases"]
+
+  - name: "Postgres Weekly"
+    url: "https://postgresweekly.com/rss"
+    type: "rss"
+    default_tags: ["databases", "sql"]
+
+  # --- Tier 4: Academic Pre-Prints & Research ---
+  - name: "arXiv cs.DC (Distributed Computing)"
+    url: "https://export.arxiv.org/rss/cs.DC"
+    type: "rss"
+    default_tags: ["research", "distributed-systems"]
+
+  - name: "arXiv cs.DB (Databases)"
+    url: "https://export.arxiv.org/rss/cs.DB"
+    type: "rss"
+    default_tags: ["research", "databases"]
