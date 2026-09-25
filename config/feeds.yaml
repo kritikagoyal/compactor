@@ -154,30 +154,25 @@ sources:
     type: "rss"
     default_tags: ["databases", "sql", "distributed-systems"]
 
+  - name: "PlanetScale Blog"
+    url: "https://planetscale.com/blog/rss.xml"
+    type: "rss"
+    default_tags: ["databases", "mysql", "scaling"]
+  
+  - name: "Yash Agarwal"
+    url: "https://yashagw.com/rss.xml"
+    type: "rss"
+    default_tags: ["software-engineering", "personal-blog"]
+
+  - name: "Ben Dicken"
+    url: "https://benjdd.com/rss.xml"
+    type: "rss"
+    default_tags: ["databases", "systems", "mysql", "web-dev"]
+
   - name: "ClickHouse Technology"
     url: "https://clickhouse.com/blog/rss.xml"
     type: "rss"
     default_tags: ["databases", "sql", "olap"]
-
-  - name: "ScyllaDB Blog"
-    url: "https://www.scylladb.com/feed/"
-    type: "rss"
-    default_tags: ["databases", "cassandra", "kv-store", "distributed-systems"]
-
-  - name: "PingCAP (TiDB) Engineering"
-    url: "https://www.pingcap.com/blog/feed/"
-    type: "rss"
-    default_tags: ["databases", "sql", "distributed-systems", "kv-store"]
-
-  - name: "RisingWave (Streaming DB)"
-    url: "https://risingwave.com/blog/rss.xml"
-    type: "rss"
-    default_tags: ["databases", "streaming", "sql"]
-
-  - name: "Redpanda Blog"
-    url: "https://redpanda.com/blog/rss.xml"
-    type: "rss"
-    default_tags: ["kafka", "distributed-systems", "consensus"]
 
   # --- Tier 2: Core Infrastructure, Cloud & Container Systems ---
   - name: "Kubernetes Blog"
@@ -225,14 +220,3 @@ sources:
     url: "https://postgresweekly.com/rss"
     type: "rss"
     default_tags: ["databases", "sql"]
-
-  # --- Tier 4: Academic Pre-Prints & Research ---
-  - name: "arXiv cs.DC (Distributed Computing)"
-    url: "https://export.arxiv.org/rss/cs.DC"
-    type: "rss"
-    default_tags: ["research", "distributed-systems"]
-
-  - name: "arXiv cs.DB (Databases)"
-    url: "https://export.arxiv.org/rss/cs.DB"
-    type: "rss"
-    default_tags: ["research", "databases"]
