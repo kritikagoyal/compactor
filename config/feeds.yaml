@@ -169,6 +169,11 @@ sources:
     type: "rss"
     default_tags: ["databases", "systems", "mysql", "web-dev"]
 
+  - name: "Sam Rose (samwho)"
+    url: "https://samwho.dev/rss.xml"
+    type: "rss"
+    default_tags: ["visual-explanations", "systems", "algorithms", "software-engineering"]
+
   - name: "ClickHouse Technology"
     url: "https://clickhouse.com/blog/rss.xml"
     type: "rss"
