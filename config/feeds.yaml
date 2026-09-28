@@ -158,6 +158,11 @@ sources:
     url: "https://planetscale.com/blog/rss.xml"
     type: "rss"
     default_tags: ["databases", "mysql", "scaling"]
+
+  - name: "All Things Distributed Blog"
+    url: "https://www.allthingsdistributed.com/atom.xml"
+    type: "rss"
+    default_tags: ["databases", "distributed-systems", "aws", "cloud"]
   
   - name: "Yash Agarwal"
     url: "https://yashagw.com/rss.xml"
