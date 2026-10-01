@@ -1,0 +1,22 @@
+# Daily Digest: 2026-10-01
+
+> Curated technical digest for Distributed Systems & Databases. Aggregated **16** new articles on Thursday, October 01, 2026.
+
+| # | Article | Source / Author | Tags |
+| :---: | :--- | :--- | :--- |
+| 1 | [AWS and AMD bring 5th generation AMD EPYC processors to Amazon Aurora and Amazon RDS](01-aws-and-amd-bring-5th-generation-amd-epyc-processors-to-amaz.md) ([Source](https://aws.amazon.com/blogs/database/aws-and-amd-bring-5th-generation-amd-epyc-processors-to-amazon-aurora-and-amazon-rds/)) | AWS Database Blog | `databases`, `kv-store`, `sql` |
+| 2 | [We used a database as a message queue. Now we use Kafka](02-we-used-a-database-as-a-message-queue-now-we-use-kafka.md) ([Source](https://www.tigrisdata.com/blog/quick-fdb-kafka/)) | Lobste.rs (Distributed Systems) | `databases`, `distributed-systems`, `kafka` |
+| 3 | [Resolving PostgreSQL replication lag with heartbeat tables in change data capture scenarios](03-resolving-postgresql-replication-lag-with-heartbeat-tables-i.md) ([Source](https://aws.amazon.com/blogs/database/resolving-postgresql-replication-lag-with-heartbeat-tables-in-change-data-capture-scenarios/)) | AWS Database Blog | `databases`, `distributed-systems`, `kv-store` |
+| 4 | [Migrate Db2 z/OS to Amazon Aurora PostgreSQL using AWS DMS and gateway server](04-migrate-db2-zos-to-amazon-aurora-postgresql-using-aws-dms-an.md) ([Source](https://aws.amazon.com/blogs/database/migrate-db2-z-os-to-amazon-aurora-postgresql-using-aws-dms-and-gateway-server/)) | AWS Database Blog | `databases`, `kv-store`, `sql` |
+| 5 | [Postgres on, vs, with Linux](05-postgres-on-vs-with-linux.md) ([Source](https://youtu.be/isATpooTax8)) | Lobste.rs (Databases) | `databases`, `sql` |
+| 6 | [Cloudflare Impact reaches $100 million in donations](06-cloudflare-impact-reaches-100-million-in-donations.md) ([Source](https://blog.cloudflare.com/100-million-donations/)) | Cloudflare Technical Blog | `distributed-systems`, `infrastructure` |
+| 7 | [Cut your AI spend with AI Gateway's Auto Router](07-cut-your-ai-spend-with-ai-gateways-auto-router.md) ([Source](https://blog.cloudflare.com/auto-router/)) | Cloudflare Technical Blog | `distributed-systems`, `infrastructure` |
+| 8 | [Detect and send production issues straight to your agent](08-detect-and-send-production-issues-straight-to-your-agent.md) ([Source](https://blog.cloudflare.com/real-time-issue-detection/)) | Cloudflare Technical Blog | `distributed-systems`, `infrastructure` |
+| 9 | [Simplifying domains for people and agents](09-simplifying-domains-for-people-and-agents.md) ([Source](https://blog.cloudflare.com/simplifying-domains/)) | Cloudflare Technical Blog | `distributed-systems`, `infrastructure`, `research` |
+| 10 | [Monetization Gateway beta: charge AI agents for consumption with HTTP 402](10-monetization-gateway-beta-charge-ai-agents-for-consumption-w.md) ([Source](https://blog.cloudflare.com/monetization-gateway-beta/)) | Cloudflare Technical Blog | `distributed-systems`, `infrastructure` |
+| 11 | [Pay Per Use: when AI uses your work, you should get paid](11-pay-per-use-when-ai-uses-your-work-you-should-get-paid.md) ([Source](https://blog.cloudflare.com/pay-per-use/)) | Cloudflare Technical Blog | `distributed-systems`, `infrastructure` |
+| 12 | [Identify AI model overuse with User Insights](12-identify-ai-model-overuse-with-user-insights.md) ([Source](https://blog.cloudflare.com/ai-model-overuse-user-insights/)) | Cloudflare Technical Blog | `distributed-systems`, `infrastructure` |
+| 13 | [Cloudflare Containers, rebuilt to scale agent sandboxes](13-cloudflare-containers-rebuilt-to-scale-agent-sandboxes.md) ([Source](https://blog.cloudflare.com/faster-agent-sandboxes/)) | Cloudflare Technical Blog | `distributed-systems`, `docker`, `infrastructure` |
+| 14 | [The Internet has a second audience](14-the-internet-has-a-second-audience.md) ([Source](https://blog.cloudflare.com/agentic-web/)) | Cloudflare Technical Blog | `distributed-systems`, `infrastructure` |
+| 15 | [Join Ordering, Part 1: The Shape of the Search Space](15-join-ordering-part-1-the-shape-of-the-search-space.md) ([Source](https://deferworks.org/posts/join-ordering/)) | Lobste.rs (Databases) | `databases` |
+| 16 | [Can REPACK CONCURRENTLY replace pg_repack?](16-can-repack-concurrently-replace-pgrepack.md) ([Source](https://postgresweekly.com/issues/667)) | Postgres Weekly | `databases`, `distributed-systems`, `kafka` |
