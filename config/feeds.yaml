@@ -184,6 +184,11 @@ sources:
     type: "rss"
     default_tags: ["databases", "sql", "olap"]
 
+  - name: "Tides DB"
+    url: "https://tidesdb.com/rss.xml"
+    type: "rss"
+    default_tags: ["databases"]
+
   # --- Tier 2: Core Infrastructure, Cloud & Container Systems ---
   - name: "Kubernetes Blog"
     url: "https://kubernetes.io/feed.xml"
