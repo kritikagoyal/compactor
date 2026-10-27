@@ -1,0 +1,12 @@
+# How Vestiaire Collective achieved near-zero downtime RDS for MariaDB upgrades with Amazon RDS Blue/Green Deployments
+
+- **URL:** https://aws.amazon.com/blogs/database/how-vestiaire-collective-achieved-near-zero-downtime-rds-for-mariadb-upgrades-with-amazon-rds-blue-green-deployments/
+- **Author:** Ejaz Azeem
+- **Published Date:** 2026-10-26 17:19 UTC
+- **Tags:** `databases`, `kv-store`, `sql`
+- **Source:** AWS Database Blog
+
+---
+
+## Summary
+Vestiaire Collective, a global platform for pre-owned luxury fashion, achieved near-zero downtime upgrading its Amazon RDS for MariaDB fleet across two major versions. Learn how the team used Amazon RDS Blue/Green Deployments with AWS Countdown Premium to deliver a 94-second and then a 7-second switchover during peak sales season.

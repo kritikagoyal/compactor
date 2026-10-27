@@ -2,10 +2,11 @@
 
 > Automated daily technical intelligence in Distributed Systems, Databases, Storage Engines, and Infrastructure.
 
-**Total Editions:** 28
+**Total Editions:** 29
 
 | Date | Digest Link | Total Articles | Key Topics |
 | :--- | :--- | :---: | :--- |
+| 2026-10-27 | [Browse Day's Articles](report/2026-10-27/README.md) | 5 | `architecture`, `databases`, `distributed-systems`, `docker` |
 | 2026-10-26 | [Browse Day's Articles](report/2026-10-26/README.md) | 1 | `distributed-systems` |
 | 2026-10-25 | [Browse Day's Articles](report/2026-10-25/README.md) | 1 | `databases`, `sql` |
 | 2026-10-24 | [Browse Day's Articles](report/2026-10-24/README.md) | 4 | `architecture`, `databases`, `distributed-systems`, `infrastructure` |
