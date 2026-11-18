@@ -1,0 +1,15 @@
+# Daily Digest: 2026-11-18
+
+> Curated technical digest for Distributed Systems & Databases. Aggregated **9** new articles on Wednesday, November 18, 2026.
+
+| # | Article | Source / Author | Tags |
+| :---: | :--- | :--- | :--- |
+| 1 | [Accelerate your DynamoDB workloads with DynamoDB caching with Amazon ElastiCache Serverless for Valkey](01-accelerate-your-dynamodb-workloads-with-dynamodb-caching-wit.md) ([Source](https://aws.amazon.com/blogs/database/accelerate-your-dynamodb-workloads-with-dynamodb-caching-with-amazon-elasticache-serverless-for-valkey/)) | AWS Database Blog | `databases`, `kv-store`, `redis` |
+| 2 | [Use query statistics to find slow and expensive queries in Aurora DSQL](02-use-query-statistics-to-find-slow-and-expensive-queries-in-a.md) ([Source](https://aws.amazon.com/blogs/database/use-query-statistics-to-find-slow-and-expensive-queries-in-aurora-dsql/)) | AWS Database Blog | `databases`, `kv-store`, `sql` |
+| 3 | [Quad9’s withdrawal from France: A canary in the coal mine](03-quad9s-withdrawal-from-france-a-canary-in-the-coal-mine.md) ([Source](https://blog.cloudflare.com/quad9-withdrawal-from-france/)) | Cloudflare Technical Blog | `distributed-systems`, `infrastructure` |
+| 4 | [Add your organization’s runbooks and policies using Retrieval Augmented Generation (RAG) on Amazon Aurora PostgreSQL](04-add-your-organizations-runbooks-and-policies-using-retrieval.md) ([Source](https://aws.amazon.com/blogs/database/add-your-organizations-runbooks-and-policies-using-retrieval-augmented-generation-rag-on-amazon-aurora-postgresql/)) | AWS Database Blog | `databases`, `kv-store`, `sql` |
+| 5 | [Build an AI-powered DBA assistant for Amazon Aurora and Amazon RDS with Kiro](05-build-an-ai-powered-dba-assistant-for-amazon-aurora-and-amaz.md) ([Source](https://aws.amazon.com/blogs/database/build-an-ai-powered-dba-assistant-for-amazon-aurora-and-amazon-rds-with-kiro/)) | AWS Database Blog | `databases`, `kv-store`, `sql` |
+| 6 | [Engineering AI Discover](06-engineering-ai-discover.md) ([Source](https://netflixtechblog.com/engineering-ai-discover-e244944cdc38?source=rss----2615bd06b42e---4)) | Netflix TechBlog | `architecture`, `distributed-systems`, `research` |
+| 7 | [Distribute Amazon RDS traffic between read replicas using Network Load Balancer](07-distribute-amazon-rds-traffic-between-read-replicas-using-ne.md) ([Source](https://aws.amazon.com/blogs/database/distribute-amazon-rds-traffic-between-read-replicas-using-network-load-balancer/)) | AWS Database Blog | `databases`, `kv-store`, `sql` |
+| 8 | [MySQL Development as it Happens, Part 2 -Vector Indexes](08-mysql-development-as-it-happens-part-2-vector-indexes.md) ([Source](https://blogs.oracle.com/mysql/mysql-development-as-it-happens-part-2-vector-indexes)) | Lobste.rs (Databases) | `databases`, `sql` |
+| 9 | [Introducing Insights Agent](09-introducing-insights-agent.md) ([Source](https://planetscale.com/blog/introducing-insights-agent)) | PlanetScale Blog | `databases`, `mysql`, `scaling` |
