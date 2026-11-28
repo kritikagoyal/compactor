@@ -179,6 +179,11 @@ sources:
     type: "rss"
     default_tags: ["visual-explanations", "systems", "algorithms", "software-engineering"]
 
+  - name: "Kuber Studio"
+    url: "https://kuber.studio/blog/index.xml"
+    type: "rss"
+    default_tags: ["ai", "machine-learning"]
+
   - name: "ClickHouse Technology"
     url: "https://clickhouse.com/blog/rss.xml"
     type: "rss"
